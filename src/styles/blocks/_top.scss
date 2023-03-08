@@ -1,0 +1,38 @@
+.top {
+  background-image: url(../img/BG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.top__content {
+  margin-top: 190px;
+  max-width: 440px;
+  &-title {
+    font-family: Georgia;
+    color: $fs-green;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+  }
+  &-text {
+    margin: 18px 0 60px;
+  }
+  &-btn {
+    color: $fs-white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 20px 50px;
+    background-color: $bg-btn-green;
+    border: 1px solid $border-green;
+    border-radius: 4px;
+    transition: all .5s;
+    &:hover {
+      background-color: $bg-btn-hover;
+    }
+  }
+}
+
