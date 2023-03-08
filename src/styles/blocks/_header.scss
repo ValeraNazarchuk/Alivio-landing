@@ -60,6 +60,7 @@
     border-radius: 4px;
     transition: all 0.5s;
     &:hover {
+      border-color: $bg-btn-hover;
       background-color: $bg-btn-hover;
     }
   }
