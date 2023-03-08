@@ -118,7 +118,7 @@ a {
 
 body {
   font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   line-height: 31px;
   color: #424242;
@@ -132,11 +132,27 @@ body {
   overflow-x: hidden;
 }
 
+.title {
+  font-family: "Georgia";
+  max-width: 585px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996D;
+}
+
 @font-face {
   font-family: "Georgia";
   font-weight: 700;
   font-style: normal;
-  src: local("Lato"), url("../fonts/Georgia-Bold.woff2") format("woff2"), url("../fonts/Georgia-Bold.woff") format("woff"), url("../fonts/Georgia-Bold.woff2") format("eot");
+  src: local("Georgia"), url("../fonts/Georgia-Bold.woff2") format("woff2"), url("../fonts/Georgia-Bold.woff") format("woff"), url("../fonts/Georgia-Bold.woff2") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Georgia";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Georgia"), url("../fonts/Georgia.woff2") format("woff2"), url("../fonts/Georgia.woff") format("woff"), url("../fonts/Georgia.woff2") format("eot");
   font-display: swap;
 }
 @font-face {
@@ -209,12 +225,14 @@ body {
 .header__buttons-sign {
   font-size: 20px;
   line-height: 24px;
+  font-weight: 400;
   color: #000;
 }
 .header__buttons-start {
   position: relative;
   padding: 13px 50px;
   margin-left: 35px;
+  font-weight: 400;
   background-color: #01996D;
   color: #fff;
   border: 1px solid #01996D;
@@ -239,7 +257,7 @@ body {
   max-width: 440px;
 }
 .top__content-title {
-  font-family: Georgia;
+  font-family: "Georgia";
   color: #01996D;
   font-weight: 700;
   font-size: 65px;
@@ -247,6 +265,7 @@ body {
 }
 .top__content-text {
   margin: 18px 0 60px;
+  font-weight: 400;
 }
 .top__content-btn {
   color: #fff;
@@ -261,5 +280,76 @@ body {
 }
 .top__content-btn:hover {
   background-color: #026146;
+}
+
+.works {
+  padding-top: 155px;
+}
+
+.works__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.works__top-body {
+  margin-right: 20px;
+}
+.works__top-supertitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+}
+.works__top-text {
+  max-width: 670px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.works__items {
+  margin-top: 185px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.works__item {
+  max-width: 390px;
+}
+.works__item-title {
+  position: relative;
+  text-align: center;
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  color: #000;
+}
+.works__item-title span {
+  position: absolute;
+  top: -140px;
+  left: 0;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 150%;
+  color: rgba(1, 153, 109, 0.2);
+}
+.works__item-text {
+  font-size: 20px;
+  line-height: 150%;
+  margin: 55px 0 50px;
+}
+.works__item-img img {
+  width: 100%;
+}
+
+.works__item:nth-child(2) {
+  margin-top: 295px;
+}
+
+.works__item:last-child {
+  margin-top: 55px;
 }
 /*# sourceMappingURL=style.css.map */

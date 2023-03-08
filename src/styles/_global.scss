@@ -11,7 +11,7 @@ a{
 
 body {
   font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   line-height: 31px;
   color: $fs-gray;
@@ -23,4 +23,13 @@ body {
   margin: 0 auto; 
   height: 100%;
   overflow-x: hidden;
+}
+
+.title {
+  font-family: 'Georgia';
+  max-width: 585px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;  
+  color: $fs-green;
 }

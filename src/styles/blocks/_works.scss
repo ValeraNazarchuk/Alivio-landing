@@ -1,0 +1,77 @@
+.works {
+  padding-top: 155px;
+}
+
+.works__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  &-body {
+    margin-right: 20px;
+  }
+  &-supertitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+  }
+  
+  &-text {
+    max-width: 670px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+  }
+}
+
+// -----------------------------
+
+.works__items{
+  margin-top: 185px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.works__item {
+  max-width: 390px;
+  &-title {
+    position: relative;
+    text-align: center;
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    color: $fs-black;
+    span {
+      position: absolute;
+      top: -140px;
+      left: 0;
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 150px;
+      line-height: 150%;
+      color: rgba(1, 153, 109, 0.2);
+    }
+  }
+  &-text {
+    font-size: 20px;
+    line-height: 150%;
+    margin: 55px 0 50px;
+  }
+
+  &-img {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+
+.works__item:nth-child(2) {
+  margin-top: 295px;
+}
+
+.works__item:last-child {
+  margin-top: 55px;
+}
