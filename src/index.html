@@ -35,7 +35,7 @@
               </ul>
             </nav>
             <div class="header__buttons">
-              <button class="header__buttons-sign" type="button">
+              <button id="sign" class="header__buttons-sign" type="button">
                 Sign in
               </button>
               <a class="header__buttons-start" href="#">Start Trial</a>
@@ -44,6 +44,38 @@
         </div>
       </div>
     </header>
+
+  <div class="popup">
+      <div class="popup__content">
+          <div class="popup__body">
+              <button class="popup__close" type="button" ></button>
+              <div class="popup__box">
+                <div class="popup__box-buttons">
+                  <button class="popup__box-btn button-active" data-login="login" type="button">ЛОГИН</button>
+                  <button class="popup__box-btn" data-registration="registration" type="button">РЕГИСТРАЦИЯ</button>
+                </div>
+                <form class="form-login">
+                  <div class="form__box-input">
+                    <input class="form__input" type="email" placeholder="Введите email">
+                    <input class="form__input" type="password" placeholder="Введите пароль">
+                  </div>
+                  <button class="form__btn" type="submit" href="#">ВОЙТИ</button>
+                </form>
+                <form class="form-registration">
+                  <div class="form__box-input">
+                    <input class="form__input" type="text" placeholder="Введите имя">
+                    <input class="form__input" type="text" placeholder="Ваш Город">
+                    <input class="form__input" type="tel" placeholder="Введите телефон">
+                    <input class="form__input" type="email" placeholder="Введите email">
+                    <input class="form__input" type="text" placeholder="Введите пароль">
+                    <input class="form__input" type="tel" placeholder="Подтвердите  пароль">
+                  </div>
+                  <button class="form__btn" type="submit" href="#">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+                </form>
+              </div>
+          </div>
+      </div>
+  </div>
 
     <main>
       <section class="top">
