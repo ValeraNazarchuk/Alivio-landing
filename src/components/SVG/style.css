@@ -1,0 +1,12 @@
+/* глобальні стилі для всих іконок */
+.icons {
+  max-width: 24px;
+  max-height: 24px;
+  transition: all 0.5s;
+}
+
+/* як задавати 'hover' еферкт */
+.icons__element:hover {
+  color: brown;
+  cursor: pointer;
+}
