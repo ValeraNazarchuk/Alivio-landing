@@ -1,0 +1,19 @@
+.footer {
+  padding: 95px 0 145px;
+  background-color: $bg-green;
+  color: $fs-white;
+  &__title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 60px;
+  }
+  &__list-item {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  &__list-item + .footer__list-item {
+    margin-top: 60px;
+  }
+}

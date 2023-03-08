@@ -1,0 +1,105 @@
+.product {
+  padding: 120px 0 170px;
+  background-color: $bg-gray;
+  &__inner {
+    margin: 0 0 75px 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.product__body {
+  margin-right: 15px;
+  position: relative;
+  &-img {
+    width: 100%;
+  }
+  &-box {
+    position: absolute;
+    bottom: -75px;
+    left: -60px;
+    background-color: $bg-white;
+    border-radius: 4px;
+    padding: 20px 55px 30px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.product__box {
+  &-supertitle {
+    color: $fs-black;
+    font-size: 15px;
+    line-height: 157%;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -7px;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background-color: #000;
+    }
+  }
+
+  &-img {
+    margin: 20px 0 10px;
+  }
+
+  &-name {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 157%;
+    color: $fs-black;
+  }
+
+  &-title {
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 157%;
+    color: $fs-black;
+    margin-bottom: 15px;
+  }
+  
+  &-list {
+    align-self: flex-start;
+  }
+
+  &-item {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 157%;
+    color: $fs-black;
+  }
+
+  &-item:first-child {
+    margin-bottom: 15px;
+  }
+}
+
+.product__content {
+  // max-width: 580px;
+  &-supertitle {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+  }
+
+  &-text {
+    margin: 14px 0 40px;
+    max-width: 530px;
+  }
+
+  &-btn {
+    padding: 20px 50px;
+    background-color: $bg-btn-green;
+    color: $fs-white;
+    transition: all .5s;
+    &:hover {
+      background-color: $bg-btn-hover;
+    }
+  }
+}

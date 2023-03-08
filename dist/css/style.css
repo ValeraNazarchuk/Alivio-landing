@@ -415,4 +415,117 @@ body {
 .story__video-img {
   width: 100%;
 }
+
+.product {
+  padding: 120px 0 170px;
+  background-color: #E5E5E5;
+}
+.product__inner {
+  margin: 0 0 75px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__body {
+  margin-right: 15px;
+  position: relative;
+}
+.product__body-img {
+  width: 100%;
+}
+.product__body-box {
+  position: absolute;
+  bottom: -75px;
+  left: -60px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px 55px 30px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product__box-supertitle {
+  color: #000;
+  font-size: 15px;
+  line-height: 157%;
+  position: relative;
+}
+.product__box-supertitle::before {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #000;
+}
+.product__box-img {
+  margin: 20px 0 10px;
+}
+.product__box-name {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 157%;
+  color: #000;
+}
+.product__box-title {
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 157%;
+  color: #000;
+  margin-bottom: 15px;
+}
+.product__box-list {
+  align-self: flex-start;
+}
+.product__box-item {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 157%;
+  color: #000;
+}
+.product__box-item:first-child {
+  margin-bottom: 15px;
+}
+
+.product__content-supertitle {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+}
+.product__content-text {
+  margin: 14px 0 40px;
+  max-width: 530px;
+}
+.product__content-btn {
+  padding: 20px 50px;
+  background-color: #01996D;
+  color: #fff;
+  transition: all 0.5s;
+}
+.product__content-btn:hover {
+  background-color: #026146;
+}
+
+.footer {
+  padding: 95px 0 145px;
+  background-color: #245852;
+  color: #fff;
+}
+.footer__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  margin-bottom: 60px;
+}
+.footer__list-item {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+}
+.footer__list-item + .footer__list-item {
+  margin-top: 60px;
+}
 /*# sourceMappingURL=style.css.map */
