@@ -49,6 +49,7 @@
     font-weight: 400;
     color: $fs-black;
     cursor: pointer;
+    transition: all .5s;
   }
   &-start {
     position: relative;

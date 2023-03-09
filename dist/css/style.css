@@ -386,6 +386,10 @@ body {
   font-weight: 400;
   color: #000;
   cursor: pointer;
+  transition: all 0.5s;
+}
+.header__buttons-sign:hover {
+  color: #292929;
 }
 .header__buttons-start {
   position: relative;
@@ -661,6 +665,7 @@ body {
 .product__content-btn {
   padding: 20px 50px;
   background-color: #01996D;
+  border-radius: 4px;
   color: #fff;
   transition: all 0.5s;
 }
