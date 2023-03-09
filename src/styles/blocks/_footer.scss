@@ -22,7 +22,7 @@
     cursor: pointer;
     transition: all .5s;
     &:hover {
-      color: $fs-gray;
+      color: $fs-hover-gray;
     }
   }
   &__list-item + .footer__list-item {
