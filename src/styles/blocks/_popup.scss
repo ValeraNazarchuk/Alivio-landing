@@ -100,13 +100,14 @@
     gap: 17px;
   }
   &-btn {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.07em;
     padding: 25px 0 22px;
     width: 100%;
     border: 3px solid $border-green;
+    border-radius: 10px;
     cursor: pointer;
   }
 }
@@ -152,11 +153,16 @@
     margin-top: 47px;
     width: 100%;
     padding: 24px 0;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: .07em;
     color: #fff;
     background-color: $bg-btn-green;
+    border-radius: 10px;
     cursor: pointer;
+    transition: all .5s;
+    &:hover {
+      background-color: $bg-btn-hover;
+    }
 }

@@ -3,6 +3,7 @@
   background-color: $bg-green;
   color: $fs-white;
   &__title {
+    font-family: sans-serif;
     font-weight: 900;
     font-size: 40px;
     line-height: 55px;
@@ -15,7 +16,7 @@
   }
 
   &__list-item {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 25px;
     line-height: 30px;
     cursor: pointer;
