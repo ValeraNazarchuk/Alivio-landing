@@ -14,23 +14,23 @@
           <a class="logo" href="#">
             <img src="./img/Logo.png" alt="Logo" />
           </a>
+          <a class="nav__burger">
+            <span class="nav__burger-line"></span>
+          </a>
           <div class="header__menu">
             <nav class="nav">
-              <a class="nav__burger">
-                <span class="nav__burger-line"></span>
-              </a>
               <ul class="nav__list">
                 <li class="nav__list-item">
-                  <a class="nav__item-link" href="#">Why Alivio</a>
+                  <a class="nav__item-link" href="#top">Why Alivio</a>
                 </li>
                 <li class="nav__list-item">
-                  <a class="nav__item-link" href="#">Solutions</a>
+                  <a class="nav__item-link" href="#works">Solutions</a>
                 </li>
                 <li class="nav__list-item">
-                  <a class="nav__item-link" href="#">Community</a>
+                  <a class="nav__item-link" href="#story">Community</a>
                 </li>
                 <li class="nav__list-item">
-                  <a class="nav__item-link" href="#">Pricing</a>
+                  <a class="nav__item-link" href="#product">Pricing</a>
                 </li>
               </ul>
             </nav>
@@ -45,40 +45,40 @@
       </div>
     </header>
 
-  <div class="popup">
-      <div class="popup__content">
-          <div class="popup__body">
-              <button class="popup__close" type="button" ></button>
-              <div class="popup__box">
-                <div class="popup__box-buttons">
-                  <button class="popup__box-btn button-active" data-login="login" type="button">ЛОГИН</button>
-                  <button class="popup__box-btn" data-registration="registration" type="button">РЕГИСТРАЦИЯ</button>
-                </div>
-                <form class="form-login">
-                  <div class="form__box-input">
-                    <input class="form__input" type="email" placeholder="Введите email">
-                    <input class="form__input" type="password" placeholder="Введите пароль">
-                  </div>
-                  <button class="form__btn" type="submit" href="#">ВОЙТИ</button>
-                </form>
-                <form class="form-registration">
-                  <div class="form__box-input">
-                    <input class="form__input" type="text" placeholder="Введите имя">
-                    <input class="form__input" type="text" placeholder="Ваш Город">
-                    <input class="form__input" type="tel" placeholder="Введите телефон">
-                    <input class="form__input" type="email" placeholder="Введите email">
-                    <input class="form__input" type="text" placeholder="Введите пароль">
-                    <input class="form__input" type="tel" placeholder="Подтвердите  пароль">
-                  </div>
-                  <button class="form__btn" type="submit" href="#">ЗАРЕГИСТРИРОВАТЬСЯ</button>
-                </form>
+<div class="popup">
+    <div class="popup__content">
+        <div class="popup__body">
+            <button class="popup__close" type="button" ></button>
+            <div class="popup__box">
+              <div class="popup__box-buttons">
+                <button class="popup__box-btn button-active" data-login="login" type="button">Login</button>
+                <button class="popup__box-btn" data-registration="registration" type="button">Registration</button>
               </div>
-          </div>
-      </div>
-  </div>
+              <form class="form-login">
+                <div class="form__box-input">
+                  <input class="form__input" type="email" placeholder="Enter email">
+                  <input class="form__input" type="password" placeholder="Enter password">
+                </div>
+                <button class="form__btn" type="submit" href="#">To come in</button>
+              </form>
+              <form class="form-registration">
+                <div class="form__box-input">
+                  <input class="form__input" type="text" placeholder="Enter your name">
+                  <input class="form__input" type="text" placeholder="Your city">
+                  <input class="form__input" type="tel" placeholder="Enter phone">
+                  <input class="form__input" type="email" placeholder="Enter email">
+                  <input class="form__input" type="text" placeholder="Enter password">
+                  <input class="form__input" type="tel" placeholder="Confirm password">
+                </div>
+                <button class="form__btn" type="submit" href="#">Register</button>
+              </form>
+            </div>
+        </div>
+    </div>
+</div>
 
     <main>
-      <section class="top">
+      <section id="top" class="top">
         <div class="container">
           <div class="top__content">
             <h1 class="top__content-title">Be aware, Manage well.</h1>
@@ -91,7 +91,7 @@
           </div>
         </div>
       </section>
-      <section class="works">
+      <section id="works" class="works">
         <div class="container">
           <div class="works__top">
             <div class="worls__top-body">
@@ -128,7 +128,7 @@ What are you waiting for? Alivio today!</p>
           </div>
         </div>
       </section>
-      <section class="story">
+      <section id="story" class="story">
         <div class="story__inner">
           <div class="story__content">
             <h2 class="title story__content-title">Let's hear about Kayla's success story</h2>
@@ -155,7 +155,7 @@ What are you waiting for? Alivio today!</p>
           </div>
         </div>
       </section>
-      <section class="product">
+      <section id="product" class="product">
         <div class="container">
           <div class="product__inner">
             <div class="product__body">
@@ -188,21 +188,23 @@ What are you waiting for? Alivio today!</p>
 
     <footer class="footer">
       <div class="container">
-        <h6 class="footer__title">Alivio</h6>
-        <ul class="footer__list">
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Why Alivio</a>
-          </li>
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Solutions</a>
-          </li>
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Community</a>
-          </li>
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Pricing</a>
-          </li>
-        </ul>
+        <div class="footer__inner">
+          <h6 class="footer__title">Alivio</h6>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Why Alivio</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Solutions</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Community</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
 

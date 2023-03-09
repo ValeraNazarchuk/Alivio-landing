@@ -8,10 +8,21 @@
     line-height: 55px;
     margin-bottom: 60px;
   }
+
+  &__list {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
   &__list-item {
     font-weight: 600;
     font-size: 25px;
     line-height: 30px;
+    cursor: pointer;
+    transition: all .5s;
+    &:hover {
+      color: $fs-gray;
+    }
   }
   &__list-item + .footer__list-item {
     margin-top: 60px;
