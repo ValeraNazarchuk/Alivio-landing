@@ -4,7 +4,7 @@ const popup = document.querySelector('.popup')
 const popupClose = document.querySelector('.popup__close')
 
 //----------FORM(LOGIN AND REGISTRATION)------
-const popupBtn = document.querySelectorAll('.popup__box-btn')
+const popupButtons = document.querySelectorAll('.popup__box-btn')
 const formLogin = document.querySelector('.form-login')
 const formRegistration = document.querySelector('.form-registration')
 
@@ -43,17 +43,17 @@ document.addEventListener('keydown', (e) => {
 
 //--------FORM(LOGIN AND REGISTRATION)-------
 // event for the button LOGIN
-popupBtn[0].addEventListener('click', () => {
-  popupBtn[0].classList.add('button-active')
-  popupBtn[1].classList.remove('button-active')
+popupButtons[0].addEventListener('click', () => {
+  popupButtons[0].classList.add('button-active')
+  popupButtons[1].classList.remove('button-active')
   formRegistration.style.display = 'none'
   formLogin.style.display = 'flex'
 })
 
 // event for the button REGISTRATION
-popupBtn[1].addEventListener('click', () => {
-  popupBtn[0].classList.remove('button-active')
-  popupBtn[1].classList.add('button-active')
+popupButtons[1].addEventListener('click', () => {
+  popupButtons[0].classList.remove('button-active')
+  popupButtons[1].classList.add('button-active')
   formLogin.style.display = 'none'
   formRegistration.style.display = 'flex'
 })
@@ -63,7 +63,7 @@ popupBtn[1].addEventListener('click', () => {
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
     e.preventDefault()
-
+    
     const attr = anchor.getAttribute('href').substr(1)
 
     document.getElementById(attr).scrollIntoView({
