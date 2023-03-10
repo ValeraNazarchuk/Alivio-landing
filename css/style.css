@@ -209,7 +209,7 @@ body {
 .popup__body {
   width: 100%;
   max-width: 500px;
-  padding: 50px;
+  padding: 30px 50px;
   background-color: #fff;
   border-radius: 5px;
   transform: scale(0);
@@ -220,8 +220,8 @@ body {
   border-radius: 50px;
   border: 1px solid #000;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 15px;
+  right: 15px;
   z-index: 30;
   width: 20px;
   height: 20px;
@@ -272,7 +272,7 @@ body {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.07em;
-  padding: 25px 0 22px;
+  padding: 20px;
   width: 100%;
   border: 3px solid #01996D;
   border-radius: 10px;
@@ -300,8 +300,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 40px;
-  gap: 30px;
+  margin-top: 20px;
+  gap: 20px;
 }
 
 .form__input {
@@ -319,7 +319,7 @@ body {
 .form__btn {
   margin-top: 47px;
   width: 100%;
-  padding: 24px 0;
+  padding: 20px 0;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
